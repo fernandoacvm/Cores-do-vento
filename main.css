@@ -1,0 +1,37 @@
+:root {
+    --main-background-color:rgb(243, 223, 185);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-background-color);
+}
+.navbar {
+    height: 87px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    width: 100%;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.navbar__item {
+    margin: auto;
+    font-size: large;
+
+}
+.navbar__item:hover {
+    background-color: rgb(226, 220, 210) ;
+}
+
+.center-logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
